@@ -45,28 +45,40 @@ The Charity Donation System is an overall web application that enables the manag
 •	JDBC (Java Database Connectivity): For connecting and executing queries against the MySQL database.
 
 # Installation Steps
-1.	Clone the Repository: Open your terminal and run the following command to clone the repository:   
-2. git clone https://github.com/yourusername/charity-donation-system.git
-3. cd charity-donation-syste
-4. Set Up MySQL Database:
-5.Open your MySQL client (e.g., MySQL Workbench, command line).
-Create a new database named charity_system: sql
+1.	Clone the Repository: Open your terminal and run the following command to clone the repository:
+     
+•	git clone https://github.com/yourusername/charity-donation-system.git
 
-1  CREATE DATABASE charity_system;
+•	cd charity-donation-system
 
-  Import the SQL schema provided in the database folder to set up the necessary tables. You can find the SQL file (e.g., schema.sql) in the project directory.
-
-2. Configure Database Connection:
-•	Open the servlet classes (e.g., ApproveCharityServlet.java, LoginServlet.java, etc.) and verify the database connection details:
-
-3. Deploy on Tomcat:
+2. Set Up MySQL Database:
    
-  Copy the project folder to the webapps directory of your Tomcat server.
-  Start the Tomcat server using the command line or the Tomcat Manager.
+•	Open your MySQL client (e.g., MySQL Workbench, command line).
 
-4. Access the Application:
-  Open a web browser and go to http://localhost:8080/charity-donation-system.
-  You should see the login page.
+•	Create a new database named charity_system: sql
+
+•	CREATE DATABASE charity_system;
+
+•	Import the SQL schema provided in the database folder to set up the necessary tables. You can find the SQL file (e.g., schema.sql) in the project directory.
+
+
+3. Configure Database Connection:
+
+•	Open the servlet classes (e.g., ApproveCharityServlet.java, LoginServlet.java, etc.) and verify the database connection details: 
+
+4. Deploy on Tomcat:
+   
+•	Copy the project folder to the webapps directory of your Tomcat server.
+   
+•	Start the Tomcat server using the command line or the Tomcat Manager.
+
+  
+5. Access the Application:
+   
+•	Open a web browser and go to http://localhost:8080/charity-donation-system.
+
+•	You should see the login page.
+
 
 # Usage
 •	Login: Users can log in using their credentials. Admins will have access to additional functionalities.
