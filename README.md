@@ -1,5 +1,6 @@
 # Charity-Donation-System
 # Overview
+![Image (Dashboard)](https://github.com/user-attachments/assets/afb6b382-c834-4839-a66f-d4d8a301caf9)
 
 The Charity Donation System is an overall web application that enables the management of charitable donations. They give the donors a ground through which they can donate to different charities and at the same time give the administrators a way through which they can monitor accounts and charities. The system should improve the process of donating and improve the level of transparency in the charity field.
 
@@ -8,7 +9,10 @@ The Charity Donation System is an overall web application that enables the manag
 # User Authentication
 •	Role-Based Access Control: Features which are offered depend on the type of roles provided to the user (Admin, Fundraiser, Donor).
 
+![Image (Login page)](https://github.com/user-attachments/assets/5d4a6f01-9ba8-4928-9549-a090bda09bc1)
+
 •	Secure Login: Users can enter their user name and password and thus minimize exposure of certain information. 
+![Image (Logout)](https://github.com/user-attachments/assets/99410912-a99a-4995-b346-9afcc36b0144)
 
 # Charity Management
 •	Charity Approval Process: Charity registration approval or rejection is done by the admins of the website.
@@ -21,9 +25,18 @@ The Charity Donation System is an overall web application that enables the manag
 •	Dynamic Data Presentation: Information is retrieved from the database and the result is arranged in a readable form by the user.
 
 # User Management
+
+![Image (Manage Users)](https://github.com/user-attachments/assets/e851c13e-cf9b-4167-81bc-be6f683cc3ea)
+
 •	User Role Management: In this proposed system, admins have total control of human accounts, meaning they are the ones who can create, modify, or even delete users depending on their type: Admin, Fundraiser, or Donor.
 
 •	User Status Tracking: Notification of the status of users can also be seen (active/inactive) where necessary action by the admin can be taken.
+
+# Payment Method
+![Image (Payment Gateway)](https://github.com/user-attachments/assets/d0ce4c25-711f-4177-8e2e-e751ba4d22c1)
+
+![Image (Payment Success)](https://github.com/user-attachments/assets/72483516-e764-44e7-972b-c99d99a5c4d7)
+
 
 # Database Integration
 •	MySQL Database: All user, charity, and donation data is stored in a MySQL database, providing robust data management and retrieval capabilities.
